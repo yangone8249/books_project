@@ -1,0 +1,52 @@
+
+#firstContent{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#firstContent>.QnAContent{
+    padding-top: 15px;
+    position: relative;
+    width: 1000px;
+    border: 3px solid #6b6b6b;
+    display: flex;
+    height: 600px;
+    border-radius: 9px;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+}
+#firstContent>.QnAContent>.searchDiv{
+	width: 1000px;
+    position: relative;
+    height: 100px;
+}
+#firstContent>.QnAContent>.boardDiv{
+	position: relative;
+    width: 1000px;
+    height: 500px;
+    text-align: center;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+#firstContent>.QnAContent>.pageDiv{
+	margin-bottom: 10px;
+}
+table{
+	width: 900px;
+	table-layout: fixed;
+}
+#titleTable>td:nth-child(5){
+	width: 200px;
+}
+td{
+	text-overflow: ellipsis;
+    overflow: hidden;
+}
