@@ -44,6 +44,7 @@
 	margin-top: 40px;
 	width: 500px;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	margin-bottom: 10px;
 }
 label{
@@ -51,6 +52,11 @@ label{
 }
 #firstContent>.QnAContent>form>.loan{
 	margin-top: 20px;
+=======
+}
+label{
+	cursor: pointer;
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 }
 label{

@@ -10,7 +10,10 @@ import org.springframework.stereotype.Service;
 import com.myweb.www.domain.BoardVO;
 import com.myweb.www.domain.PagingVO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.myweb.www.domain.UserVO;
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 import com.myweb.www.repository.BoardDAO;
@@ -28,6 +31,10 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public void insert(BoardVO bvo) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 		
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -37,6 +44,10 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public ArrayList<BoardVO> list(PagingVO pvo) {
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 		
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -44,6 +55,7 @@ public class BoardServiceImpl implements BoardService {
 	}
 
 	@Override
+<<<<<<< HEAD
 <<<<<<< HEAD
 	public int count(PagingVO pvo) {
 		return udao.count(pvo);
@@ -82,6 +94,11 @@ public class BoardServiceImpl implements BoardService {
 	@Override
 	public int myListCount(int userNum) {
 		return udao.myListCount(userNum);
+=======
+	public int count() {
+		
+		return udao.count();
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	public int count() {
 		

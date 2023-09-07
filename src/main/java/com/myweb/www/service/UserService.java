@@ -11,8 +11,11 @@ public interface UserService {
 	UserVO login(UserVO uvo);
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	boolean idCheck(UserVO uvo);
 
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 

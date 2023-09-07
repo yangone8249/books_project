@@ -25,10 +25,15 @@
 	const id = `${id}`;
 	const pw = `${pw}`;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	const idCheck = `${idCheck}`;
 	console.log("id : "+id);
 	console.log("pw : "+pw);
 	console.log("idCheck : "+idCheck);
+=======
+	console.log("id : "+id);
+	console.log("pw : "+pw);
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	console.log("id : "+id);
 	console.log("pw : "+pw);
@@ -40,9 +45,12 @@
 		alert("PW를 입력해주세요.");
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	if(idCheck == 1){
 		alert("아이디가 중복되었습니다.");
 	}
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	

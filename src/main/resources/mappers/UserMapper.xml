@@ -11,10 +11,14 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			select * from user where user_id = #{userId} and user_pw = #{userPw}
 		</select>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<select id="idCheck" resultType="uvo">
 			select * from user where user_id = #{userId}
 		</select>
 	</mapper>
+=======
+	</mapper>    
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	</mapper>    
 >>>>>>> 727353784ff21ddea1623784970f933179313c00

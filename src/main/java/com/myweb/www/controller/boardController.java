@@ -15,11 +15,17 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import org.springframework.web.bind.annotation.DeleteMapping;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.PutMapping;
+=======
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
+import org.springframework.web.bind.annotation.PostMapping;
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
@@ -54,7 +60,10 @@ public class boardController {
 	private BoardService bsv;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 //	insert 페이지 이동
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	@GetMapping("insert")
@@ -63,8 +72,12 @@ public class boardController {
 		return mav;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 //	도서 insert 메서드
+=======
+	
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -178,8 +191,12 @@ public class boardController {
 		return mav;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	
 //	List 출력 메서드
+=======
+
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -189,7 +206,11 @@ public class boardController {
 		log.info(">>>>pageVO : " + pvo);
 		ArrayList<BoardVO> list = bsv.list(pvo);
 <<<<<<< HEAD
+<<<<<<< HEAD
 		int count = bsv.count(pvo);
+=======
+		int count = bsv.count();
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 		int count = bsv.count();
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -200,6 +221,7 @@ public class boardController {
 		request.setAttribute("ph", ph);
 		return mav;
 	}
+<<<<<<< HEAD
 <<<<<<< HEAD
 
 //	도서 detail 메서드
@@ -450,6 +472,9 @@ public class boardController {
 		request.setAttribute("ph", ph);
 		return mav;
 	}
+=======
+	
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	
 >>>>>>> 727353784ff21ddea1623784970f933179313c00

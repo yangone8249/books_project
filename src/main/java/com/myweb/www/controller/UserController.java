@@ -43,8 +43,11 @@ public class UserController {
 		return mav;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	//회원가입 메서드
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	@PostMapping("/signUp")
@@ -71,6 +74,7 @@ public class UserController {
 		log.info("uvo : "+uvo);
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		//id 중복체크
 		boolean idCheck = usv.idCheck(uvo);  //중복체크 Service 이동
 		log.info("idCheck : "+idCheck);
@@ -85,13 +89,20 @@ public class UserController {
 =======
 		usv.signUp(uvo);
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
+=======
+		usv.signUp(uvo);
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 		mav = new ModelAndView("redirect:/");
 		
 		return mav;	
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	//로그인 메서드
+=======
+	
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -120,7 +131,11 @@ public class UserController {
 		log.info("uvo : "+uvo);
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		uvo = usv.login(uvo); //로그인 Service 이동
+=======
+		uvo = usv.login(uvo);
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 		uvo = usv.login(uvo);
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -134,7 +149,11 @@ public class UserController {
 		}
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 		session.setAttribute("user", uvo); //세션 설정
+=======
+		session.setAttribute("user", uvo);
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 		session.setAttribute("user", uvo);
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -143,7 +162,10 @@ public class UserController {
 	}
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
 	//logout 메서드
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	@GetMapping("/logout")
@@ -152,7 +174,11 @@ public class UserController {
 		log.info("ses : "+session.getAttribute("user"));
 		
 <<<<<<< HEAD
+<<<<<<< HEAD
 		session.invalidate(); //세션 끊기
+=======
+		session.invalidate();
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 		session.invalidate();
 >>>>>>> 727353784ff21ddea1623784970f933179313c00

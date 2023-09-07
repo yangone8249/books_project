@@ -10,8 +10,11 @@ public interface UserDAO {
 
 	UserVO login(UserVO uvo);
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	UserVO idCheck(UserVO uvo);
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	

@@ -14,6 +14,10 @@ import lombok.ToString;
 public class BoardVO {
 	
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+	
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -26,6 +30,7 @@ public class BoardVO {
 		boardImg = img;
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 	public BoardVO(int bno, String title, String writer, String user, String content, String img) {
 		
 		boardNum = bno;
@@ -37,6 +42,8 @@ public class BoardVO {
 	}
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 	private int boardNum;
 	private String boardTitle;
 	private String boardWriter;
@@ -45,9 +52,14 @@ public class BoardVO {
 	private int boardCount;
 	private String boardImg;
 <<<<<<< HEAD
+<<<<<<< HEAD
 	private int boardLoan; 
 	private String boardUser;
 	private int boardAuth; //대출했는지 안했는지 여부
+=======
+	private int boardLoan; //대출했는지 안했는지 여부
+	private String boardUser;
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	private int boardLoan; //대출했는지 안했는지 여부
 	private String boardUser;

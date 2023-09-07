@@ -6,7 +6,11 @@
 <head>
 <meta charset="UTF-8">
 <<<<<<< HEAD
+<<<<<<< HEAD
 <title>도서 리스트</title>
+=======
+<title>새 질문 등록</title>
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 <title>새 질문 등록</title>
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -19,7 +23,11 @@
 			<div class="searchDiv">
 				<form action="/board/allList" method="get">
 <<<<<<< HEAD
+<<<<<<< HEAD
 					<c:set value="${ph.pgvo.type }" var="typed"></c:set>
+=======
+					<c:set value="${pgh.pgvo.type }" var="typed"></c:set>
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 					<c:set value="${pgh.pgvo.type }" var="typed"></c:set>
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -30,6 +38,12 @@
 						<option ${typed eq 'c' ? 'selected':'' }value="c">내용</option>
 						<option ${typed eq 'w' ? 'selected':'' }value="w">저자</option>
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+						<option ${typed eq 'tc' ? 'selected':'' }value="tc">제목 + 내용</option>
+						<option ${typed eq 'tw' ? 'selected':'' }value="tw">제목 + 저자</option>
+						<option ${typed eq 'cw' ? 'selected':'' }value="cw">내용 + 저자</option>
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 						<option ${typed eq 'tc' ? 'selected':'' }value="tc">제목 + 내용</option>
 						<option ${typed eq 'tw' ? 'selected':'' }value="tw">제목 + 저자</option>
@@ -66,7 +80,11 @@
 						</c:if>
 						</td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<td><a href="/board/detail?bno=${list.boardNum }" style="color: #6928ff;font-weight: bold;">${list.boardTitle }</a></td> 
+=======
+						<td><a href="/brd/detail" style="color: #6928ff;font-weight: bold;">${list.boardTitle }</a></td> 
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 						<td><a href="/brd/detail" style="color: #6928ff;font-weight: bold;">${list.boardTitle }</a></td> 
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -76,10 +94,14 @@
 						<td>${list.boardCount }</td>
 						<td>${list.boardUser }</td>
 <<<<<<< HEAD
+<<<<<<< HEAD
 						<td>
 						<c:if test="${list.boardAuth eq 1}">대출 중</c:if>
 						<c:if test="${list.boardAuth eq 0}">대출가능</c:if>
 						</td>
+=======
+						<td>${list.boardLoan }</td>
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 						<td>${list.boardLoan }</td>
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
@@ -89,7 +111,12 @@
 			</div>
 			<div class="btnDiv">
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<a href="/"><button type="button">이전</button></a>
+=======
+				<a href="/board/insert"><button onclick="emailCheck()">새 질문 등록</button></a>
+				<a href="/board/page?type='w'&keyword=${ses.id }"><button>내가쓴 글 보기</button></a> <br>
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 				<a href="/board/insert"><button onclick="emailCheck()">새 질문 등록</button></a>
 				<a href="/board/page?type='w'&keyword=${ses.id }"><button>내가쓴 글 보기</button></a> <br>
@@ -101,6 +128,7 @@
 			<div class="pageDiv">
 				<!-- 이전페이지 -->
 <<<<<<< HEAD
+<<<<<<< HEAD
 				<c:if test="${ph.prev }">
 					<a href="/board/allList?pageNo=${ph.startPage-1}&qty=${ph.pgvo.qty}&type=${ph.pgvo.type}&keyword=${ph.pgvo.keyword}">이전</a>
 				</c:if>
@@ -111,6 +139,8 @@
 				<c:if test="${ph.next }">	
 					<a href="/board/allList?pageNo=${ph.endPage+1 }&qty=${ph.pgvo.qty}&type=${ph.pgvo.type}&keyword=${ph.pgvo.keyword}">다음</a>
 =======
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 				<c:if test="${pgh.prev }">
 					<a href="/brd/page?pageNo=${pgh.startPage-1}&qty=${pgh.pgvo.qty}&type=${pgh.pgvo.type}&keyword=${pgh.pgvo.keyword}">이전</a>
 				</c:if>
@@ -120,6 +150,9 @@
 				<!-- 다음페이지 -->
 				<c:if test="${pgh.next }">	
 					<a href="/brd/page?pageNo=${pgh.endPage+1 }&qty=${pgh.pgvo.qty}&type=${pgh.pgvo.type}&keyword=${pgh.pgvo.keyword}">다음</a>
+<<<<<<< HEAD
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
+=======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 				</c:if>
 			</div>

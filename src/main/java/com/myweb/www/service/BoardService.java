@@ -6,7 +6,10 @@ import java.util.List;
 import com.myweb.www.domain.BoardVO;
 import com.myweb.www.domain.PagingVO;
 <<<<<<< HEAD
+<<<<<<< HEAD
 import com.myweb.www.domain.UserVO;
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 
@@ -17,6 +20,7 @@ public interface BoardService {
 
 	ArrayList<BoardVO> list(PagingVO pvo);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	int count(PagingVO pvo);
 
@@ -33,6 +37,10 @@ public interface BoardService {
 	ArrayList<BoardVO> myList(int i, PagingVO pvo);
 
 	int myListCount(int userNum);
+=======
+	int count();
+
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 	int count();
 

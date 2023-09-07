@@ -30,6 +30,7 @@ public class UserServiceImpl implements UserService {
 		return udao.login(uvo);
 	}
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 	@Override
 	public boolean idCheck(UserVO uvo) {
@@ -42,6 +43,8 @@ public class UserServiceImpl implements UserService {
 		log.info("아이디 사용가능");
 		return false;
 	}
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	

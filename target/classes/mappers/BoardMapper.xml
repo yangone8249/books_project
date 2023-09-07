@@ -11,6 +11,7 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			SELECT COUNT(*) FROM BOARD <include refid="search"></include>
 		</select>
 <<<<<<< HEAD
+<<<<<<< HEAD
 		<update id="update">
 			update board set board_num = #{boardNum}, board_title = #{boardTitle}, board_writer = #{boardWriter}, 
 			board_content = #{boardContent}, board_img = #{boardImg} where board_num = #{boardNum}
@@ -33,16 +34,22 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			  	<include refid="search"></include>
 			  	order by board_num desc
 =======
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 		<select id="list" resultType="bvo">
 			  select a.board_num, board_title, board_writer, board_reg_date, board_count from (
 			  	select board_num from board 
 			  	<include refid="search"></include>
 			  	order by board_num  
+<<<<<<< HEAD
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
+=======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 			  	limit #{pageStart}, #{qty}
 			  ) a left join board b
 			  on a.board_num = b.board_num 
 		</select>
+<<<<<<< HEAD
 <<<<<<< HEAD
 		<select id="myList" resultType="bvo">
 			  	select * from board where board_loan = #{uno}
@@ -68,6 +75,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 			  </choose>
 			</sql>
 =======
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 		  <sql id="search">
 		  	<if test="type != null">
 		  		<trim prefix="and (" suffix=")" prefixOverrides="OR">
@@ -89,5 +98,8 @@ PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
 		  		</trim>
 		  	</if>
 		  </sql>
+<<<<<<< HEAD
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
+=======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 	</mapper>    

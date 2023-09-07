@@ -4,11 +4,16 @@ import java.util.ArrayList;
 import java.util.List;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 import org.apache.ibatis.annotations.Param;
 
 import com.myweb.www.domain.BoardVO;
 import com.myweb.www.domain.PagingVO;
 import com.myweb.www.domain.UserVO;
+=======
+import com.myweb.www.domain.BoardVO;
+import com.myweb.www.domain.PagingVO;
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 =======
 import com.myweb.www.domain.BoardVO;
 import com.myweb.www.domain.PagingVO;
@@ -20,6 +25,7 @@ public interface BoardDAO {
 
 	ArrayList<BoardVO> list(PagingVO pvo);
 
+<<<<<<< HEAD
 <<<<<<< HEAD
 	int count(PagingVO pvo);
 
@@ -37,9 +43,14 @@ public interface BoardDAO {
 	
 	int myListCount(@Param("uno")int uno);
 =======
+=======
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
 	int count();
 
 
 	
+<<<<<<< HEAD
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
+=======
 >>>>>>> 727353784ff21ddea1623784970f933179313c00
 }
