@@ -1,0 +1,59 @@
+
+#firstContent{
+    margin: 0 auto;
+    width: 100%;
+    background-color: #fff;
+    height: 100vh;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#firstContent>.QnAContent{
+    padding-top: 15px;
+    position: relative;
+    width: 1000px;
+    border: 3px solid #6b6b6b;
+    display: flex;
+    justify-content: center;
+    height: 600px;
+    border-radius: 9px;
+    margin: auto;
+    text-align: center;
+}
+#firstContent>.QnAContent>form>.body>textarea{
+	width: 100%;
+	height: 200px;
+	padding: 10px;
+	box-sizing: border-box;
+	border: solid 2px #1E90FF;
+	border-radius: 5px;
+	font-size: 16px;
+	resize: none;
+}
+#firstContent>.QnAContent>form>.top>.file{
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+#firstContent>.QnAContent>form>.top>.file>input{
+	margin-top: 15px;
+}
+#firstContent>.QnAContent>form>.body{
+	margin-top: 40px;
+	width: 500px;
+<<<<<<< HEAD
+	margin-bottom: 10px;
+}
+label{
+	cursor: pointer;
+}
+#firstContent>.QnAContent>form>.loan{
+	margin-top: 20px;
+=======
+}
+label{
+	cursor: pointer;
+>>>>>>> 727353784ff21ddea1623784970f933179313c00
+}
